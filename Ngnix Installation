@@ -1,0 +1,9 @@
+sudo yum -y update 
+sudo amazon-linux-extras install php7.2
+## when installing on Amazon Linux 2 AMI, use
+$ sudo amazon-linux-extras install nginx1.12 -y
+
+$ sudo nano /var/www/html/info.php
+
+yum install java-1.8.0
+sudo amazon-linux-extras install tomcat8.5
