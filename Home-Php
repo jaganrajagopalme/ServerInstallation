@@ -1,0 +1,8 @@
+<?php
+echo gethostname(); // may output e.g,: sandie
+
+$now = new DateTime();
+echo $now->format('Y-m-d H:i:s');
+// Or, an option that also works before PHP 5.3
+echo php_uname('n'); 
+?>
